@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CodeAT
+title: CodedCat
 tagline: "Hi!"
 ---
 {% include JB/setup %}

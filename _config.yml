@@ -14,10 +14,10 @@ redcarpet:
 title : 码猫
 tagline: "Hi!"
 author :
-  name : Tikee
-  email : gloomy1993@qq.com
-  github : tikee2014
-  twitter : username
+  name : CodedCat
+  email : CodeByCat@gmail.com
+  github : CodedCat
+  twitter : CodedCat
   feedburner : 码猫
 
 # The production_url is only used when full-domain names are needed
