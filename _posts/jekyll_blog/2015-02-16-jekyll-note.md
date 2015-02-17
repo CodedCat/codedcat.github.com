@@ -12,7 +12,7 @@ tags: [jekyll]
 %\}替换为如下代码即可
 
 {% highlight html %}
-<div id="comments" class="ds-thread" data-title="\{{ page.title }}" data-url="\{{ site.production_url }}\{{ page.url }}" data-data-thread-key="\{{ page.id }}"></div>
+<div id="comments" class="ds-thread" data-title="{\{ page.title \}}" data-url="{\{ site.production_url \}}{\{ page.url \}}" data-data-thread-key="{\{ page.id \}}"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"CodedCat"};
 (function() {
