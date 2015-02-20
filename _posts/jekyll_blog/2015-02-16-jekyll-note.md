@@ -7,7 +7,7 @@ tags: [jekyll]
 {% include JB/setup %}
 用[jekyll-bootstrap](http://jekyllbootstrap.com)搭建的博客默认的评论系统是disqus，而多说更适合国内用户，把disqus换成多说可以先把_config.yml中comments那段设置注释掉，接着修改一个文件。
 
-进入到`_includes/themes/YOUR_THEME_NAME`修改post.html,将\{*% include JB/comments %*\}替换为如下代码
+进入到_includes/themes/YOUR_THEME_NAME修改post.html,将\{*% include JB/comments %*\}替换为如下代码
 
 {% highlight html %}
 
@@ -30,9 +30,9 @@ var duoshuoQuery = {short_name:"codedcat"};
 <!-- 多说公共JS代码 end -->
 
 {% endhighlight %}
-#####然后作一下更改:
+然后作一下更改:
 
-1. 页面ID    => **{****{ page.id }****}**
-2. 文章标题  => **{****{ page.title }****}**
-3. 文章网址  => **{****{ site.production_url }****}****{****{ page.url }****}**
+`1. 页面ID`    => **{****{ page.id }****}**
+`2. 文章标题` => **{****{ page.title }****}**
+`3. 文章网址`  => **{****{ site.production_url }****}****{****{ page.url }****}**
 
