@@ -84,9 +84,9 @@ JB :
   #
   comments :
   provider : disqus
-     disqus :
+   disqus :
      short_name : codeat
-   livefyre :
+     livefyre :
      site_id : 123
    intensedebate :
      account : 123abc
