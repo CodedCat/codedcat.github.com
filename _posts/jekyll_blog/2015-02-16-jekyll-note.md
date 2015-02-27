@@ -32,7 +32,7 @@ var duoshuoQuery = {short_name:"codedcat"};
 {% endhighlight %}
 然后作一下更改:
 
-`1. 页面ID`    => **{****{ page.id }****}**
-`2. 文章标题` => **{****{ page.title }****}**
-`3. 文章网址`  => **{****{ site.production_url }****}****{****{ page.url }****}**
+1. 页面ID    => **{****{ page.id }****}**
+2. 文章标题 => **{****{ page.title }****}**
+3. 文章网址  => **{****{ site.production_url }****}****{****{ page.url }****}**
 
